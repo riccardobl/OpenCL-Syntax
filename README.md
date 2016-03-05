@@ -1,5 +1,4 @@
-#Syntax file for OpenCL 1.2
+#OpenCL-VSCode
+OpenCL syntax for VisualStudio Code.
 
-Place the OpenCL dir in ~/Library/Application Support/Sublime Text 2/Packages/
-
-This has only been tested in Sublime 2 but could work in TextMate as well.
+Based on https://github.com/thebaldwin/OpenCL-Syntax

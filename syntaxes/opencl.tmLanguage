@@ -103,7 +103,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b((__)?(kernel|global|local|private|constant)|__attribute__)\b</string>
+			<string>\b((__)?(kernel|global|inline|local|private|constant)|__attribute__)\b</string>
 			<key>name</key>
 			<string>keyword.address-space.opencl</string>
 		</dict>

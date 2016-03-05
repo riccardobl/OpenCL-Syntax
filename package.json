@@ -1,0 +1,27 @@
+{
+	"name": "openclvsc",
+	"displayName": "OpenCL-vscode",
+	"description": "",
+	"version": "0.0.1",
+	"publisher": "RiccardoB",
+        "author": "Based on: https://github.com/thebaldwin/OpenCL-Syntax",
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "opencl",
+			"aliases": ["OpenCL", "opencl"],
+			"extensions": [".opencl",".cl"],
+			"configuration": "./opencl.configuration.json"
+		}],
+		"grammars": [{
+			"language": "opencl",
+			"scopeName": "source.opencl",
+			"path": "./syntaxes/opencl.tmLanguage"
+		}]
+	}
+}
